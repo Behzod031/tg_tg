@@ -99,7 +99,7 @@ async def cancel(update: Update, context: CallbackContext) -> int:
     return ConversationHandler.END
 
 def main() -> None:
-    application = Application.builder().token("7546176223:AAFavj6PqY0qlLWldFUNLHqG8HMxltfoWVU").build()
+    application = Application.builder().token("7522846671:AAEOvWM_S2T-jsM04kMRgDpWPMRW3mfOwFw").build()
 
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler('start', start)],
